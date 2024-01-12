@@ -5,6 +5,8 @@
 Volunteer Connect is a comprehensive platform designed to bridge the gap between university organizations seeking volunteers and students eager to contribute their time and skills to worthy causes.
 
 ![volunteerconnect1](https://github.com/glenntanjoh/VolunteerConnect/assets/120697405/a337aaed-df21-41f2-b028-e5d5a872253e)
+![19-1](https://github.com/glenntanjoh/VolunteerConnect/assets/120697405/5266d971-2ca8-4998-84d0-653b26d263fd)
+
 
 
 
