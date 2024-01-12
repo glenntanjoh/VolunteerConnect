@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+    vc-client:
+        build:
+            context: .
+            dockerfile: client/Dockerfile
+        container_name: vc-client
+        ports:
+            - 4173:4173
+        volumes:
+            - ./client:/opt/app
+        stdin_open: true
+        tty: true
+        restart: unless-stopped
+
+    vc-server:
+        build:
+            context: .
+            dockerfile: server/Dockerfile
+        container_name: vc-server
+        ports:
+            - 8000:8000
+        volumes:
+            - ./server:/opt/app
+        stdin_open: true
+        tty: true
+        restart: unless-stopped

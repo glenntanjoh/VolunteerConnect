@@ -1,0 +1,28 @@
+/* Searchbar.css */
+
+/* Container styles */
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 35px;
+}
+
+/* Input field styles */
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+    color: black;
+
+
+
+}

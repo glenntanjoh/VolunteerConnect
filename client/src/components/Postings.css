@@ -1,0 +1,89 @@
+/* Postings.css */
+.postings-container {
+    width: 2000px;
+    margin-top: 80px;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    height: 550px;
+    overflow: scroll;
+}
+
+.postings-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.postings-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+    height: calc(70% - 100px);
+
+    margin-right: 10px;
+}
+
+/*.posting {*/
+/*    display: flex;*/
+/*    border: 1px solid #ddd;*/
+/*    padding: 5px;*/
+/*    background-color: black;*/
+/*    border-radius: 15px;*/
+/*    width: 700px; !* Adjust as needed for your desired layout *!*/
+/*    height: 200px;*/
+/*    box-sizing: border-box;*/
+/*    margin-bottom: 20px;*/
+/*    margin-left: 265px;*/
+/*}*/
+
+.posting-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.posting-content {
+    font-size: 16px;
+    color: black;
+}
+
+.Postbutton {
+    background-color: lightgreen;
+    justify-items: center;
+    margin-left: 265px;
+
+    margin-top: 9px;
+    height: 370px;
+    width: 800px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 5px 10px 8px #888888;
+    overflow: scroll;
+}
+.searchcontainer {
+    margin-left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no-post {
+    background-color: lightgreen;
+    justify-items: center;
+    margin-left: 265px;
+    text-align: center;
+    padding: 12px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    margin-top: 9px;
+    height: 100px;
+    width: 800px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/* Add more CSS styles as needed to achieve your desired look */

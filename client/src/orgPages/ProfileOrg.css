@@ -1,0 +1,40 @@
+.wider-button {
+    width: 200px;
+    /* You can adjust the width value to your desired width */
+}
+
+.right-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-modal {
+    max-width: 50%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the modal horizontally */
+}
+
+.main-content {
+    max-width: 900px;
+}
+
+.comment-box {
+    border: 2px black solid;
+}
+
+.comment-form {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comment-button {
+    width: 200px;
+}
+
+form#edit-form-org {
+    box-shadow: none;
+    margin: 0 auto;
+    padding: 0;
+}
