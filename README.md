@@ -4,6 +4,10 @@
 
 Volunteer Connect is a comprehensive platform designed to bridge the gap between university organizations seeking volunteers and students eager to contribute their time and skills to worthy causes.
 
+![volunteerconnect1](https://github.com/glenntanjoh/VolunteerConnect/assets/120697405/a337aaed-df21-41f2-b028-e5d5a872253e)
+
+
+
 ## Installation
 
 The project can be run with Node.js in a Docker container (preferred), or locally. Before running, you must first duplicate the `server/SECRET.env.template` and rename to `server/SECRET.env`. This file contains the credentials for MongoDB and secret keys for authentication cookies, and must be filled out.
