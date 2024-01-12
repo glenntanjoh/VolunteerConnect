@@ -1,4 +1,4 @@
-# Volunteer Connect
+# VolunteerConnect
 
 ## Description
 
